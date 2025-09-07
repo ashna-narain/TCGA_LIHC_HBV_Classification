@@ -1,0 +1,2 @@
+This pipeline utilises data from the TCGA-LIHC set from UCSC Xena to examine variations in gene expression across HBV-positive and non-viral cases. Utilising this, it employs classification algorithms to discriminate between the two sample types and identify relevant genes with maximum variation across these types.
+The pipeline utilises four different classification algorithms (logistic regression, random forests, SVM (linear, RBF)) and evaluates the performances of each using a stratified 80/20 split of the dataset based on the gene expression data.
